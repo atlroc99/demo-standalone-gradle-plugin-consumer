@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        maven {
+            //C:/Users/zamanm1/IdeaProjects/demo-standalone-gradle-plugin/build/libs/demo-standalone-gradle-plugin-1.0.jar
+            // C:/Users/zamanm1/IdeaProjects/demo-standalone-gradle-plugin/build/repo
+            //jetbrains://idea/navigate/reference?project=demo-standalone-gradle-plugin&path=build/repo
+
+            // url='C:/Users/zamanm1/IdeaProjects/demo-standalone-gradle-plugin/build/libs/demo-standalone-gradle-plugin-1.0.jar'
+            url = 'C:/Users/zamanm1/IdeaProjects/demo-standalone-gradle-plugin/build/repo'
+        }
+    }
+}
+rootProject.name = 'DemoPluginConsumer'
+
